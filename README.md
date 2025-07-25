@@ -1,7 +1,7 @@
 
 # dzikri-todo-app
 
-A Todo App using Vite, Vue 3, JavaScript, Tailwind CSS (frontend) and Express (backend). Compatible with Node.js v18.18.0.
+Aplikasi Todo menggunakan Vite, Vue 3, JavaScript, Tailwind CSS. Kompatibel dengan Node.js v18.18.0.
 
 ## Fitur
 - Halaman Login (API: /api/login)
