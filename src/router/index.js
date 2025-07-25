@@ -38,6 +38,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   const token = localStorage.getItem('token');
   const isAuthPage = to.name === 'Login' || to.name === 'Register';
+  const isProtected = to.name === 'Checklists';
 
   if (!token && isProtected) {
     return next({ name: 'Login' });

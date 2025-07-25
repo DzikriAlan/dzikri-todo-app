@@ -18,6 +18,9 @@
         <button type="submit" class="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600">Register</button>
       </form>
       <div v-if="error" class="text-red-500 mt-4 text-center">{{ error }}</div>
+      <div class="mt-4 text-center">
+        <router-link to="/login" class="text-blue-500 hover:underline">Sudah punya akun? Login</router-link>
+      </div>
     </div>
   </div>
 </template>
