@@ -15,12 +15,11 @@ A Todo App using Vite, Vue 3, JavaScript, Tailwind CSS (frontend) and Express (b
 - `utils/` (apiResponse.js)
 - `app.js`, `server.js`
 
-## Menjalankan Backend
+## Installasi
 ```bash
-cd backend
-node server.js
-```
+npm install
 
-## Menjalankan Frontend
+```
+## Menjalankan aplikasi
 ```bash
 npm run dev
